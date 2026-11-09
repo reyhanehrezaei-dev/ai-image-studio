@@ -1,0 +1,12 @@
+# Versions below mirror the original notebook's minimum constraints;
+# freeze known-working versions after testing in your environment.
+torch
+diffusers>=0.30.0
+transformers>=4.44.0
+accelerate
+safetensors
+huggingface_hub
+gradio
+opencv-python
+numpy
+Pillow==10.4.0

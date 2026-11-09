@@ -1,0 +1,33 @@
+# Secrets and runtime configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+
+# Python and editors
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
+
+# Generated artifacts, datasets and model files
+models/
+checkpoints/
+outputs/
+logs/
+wandb/
+gradio_cached_examples/
+*.ckpt
+*.safetensors
+*.pth
+*.pt
+*.onnx
+*.mp4
+*.zip
